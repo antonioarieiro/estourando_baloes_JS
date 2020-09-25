@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <style type="text/css">
+
+        
+        .card-login{
+        	padding: 50px 0 0 0;
+        	padding-top: 200px;
+        	padding-left: -10px;
+        	width: 350 px;
+        	margin: 50px auto;
+
+        }	
+        .centro{
+        	padding-left: 45px;
+
+        }
+        .dale{
+            border:solid 1px;
+        	background-color: #e6f3ff;
+        	color: black;
+        }
+ 
+   </style>
+
+
+	<script language="javascript">
+		
+		 function iniciaJogo(){
+		 	var nivel_jogo = document.getElementById('nivel_jogo').value;
+
+		 	window.location.href = 'jogo.html?' + nivel_jogo;
+
+		 }
+
+	</script>
+
+</head>
+
+<body style=" background-color: pink; ">
+   
+   	 <div class="container">
+    	<div class="row">
+    		<div class="card-login">
+    			<div class="card-header dale">
+    				Escolha a Dificuldade
+    			</div>
+    			<div class="card-body dale">
+    				<form action="validalogin.php" method="post">
+    					<div class="form-group">
+    						<select id="nivel_jogo" class="form-control form-control-lg" style=" background-color: #e6f3ff; ">
+   	 		                   <option value="1">Fácil</option>
+   	 		                   <option value="2">Normal</option>
+   	 		                   <option value="3">Difícil</option>
+   	 	                    </select>  	 	
+    					</div>
+    					<div class="row">
+    						<div class="centro">
+    							<img src="imagens/iniciar.png" onclick="iniciaJogo()" />
+    					</div>
+    				</form>
+    			</div>
+    		</div>
+    	</div>	
+    </div>
+
+
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

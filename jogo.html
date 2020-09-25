@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Arieiro . JS</title>
+
+	<script src="arieiro.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<style type="text/css">
+		body{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		  float: left;
+		  padding-left: 500px;
+		  padding-top: 200px;
+		 
+		
+		}
+	</style>
+
+
+</head>
+<body onload="iniciaJogo()">
+
+  
+	
+
+    <div class="container posim mt-5"style="float:left; width: auto; height: 500px; background: #fff; border: solid 1px #a2a2a2 margin-right:5px;">
+
+    	<table>
+    		<tr>
+    			<td>
+    			<img src="imagens/balao_azul_grande.png">	
+    			</td>
+    			<td>
+    				<span id="baloes-inteiros" style="font-size: 40px;"></span>
+    			</td>
+    		</tr>
+    	</table>
+
+    	<br />
+    	<table >
+    		<tr>
+    			<td>
+    			<img src="imagens/balao_azul_grande_estourado.png">	
+    			</td>
+    			<td>
+    				<span id="baloes-estourados" style="font-size: 40px;"> </span>
+    			</td>
+    		</tr>
+    	</table>
+
+    	<br/>
+
+    	<table  style="width: 140px; height: 132px;">
+    		<tr>
+    			<td style="background:url(imagens/cronometro.png); text-align: center;">
+    				<span id="tempo-cronometro" style="color : red ; font-size: 30px;"></span>
+    			</td>
+    			
+    	</table>  	
+    </div>
+
+    <div id="cenario"style="float: left; width: 600px; height: 500px; background:url(imagens/cenario.png); background-position: bottom;">
+    	
+    </div>
+  </div>
+
+
+</body>
+</html>
