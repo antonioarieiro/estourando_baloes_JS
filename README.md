@@ -1,0 +1,2 @@
+----------------- UM JOGO COM SUA MECANICA TODA DESENVOLVIDA EM JavaScript----------------------------
+-----------------------Explorando os comandos DOM e funções de JavaScript para criar um jogo simples -----------------
