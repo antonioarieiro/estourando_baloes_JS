@@ -1,5 +1,5 @@
-//TRABALHO DE ANTONIO ARIEIRO INSPIRADO NO JOGO DE TIRO NA MAÇA
-//GIT HUB ANTONIO ARIEIRO jr
+// ANTONIO ARIEIRO 
+
 
 
 var IdTempo = null; //Variavel que vai armazenar a chamada da função TIME OUT
